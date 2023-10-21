@@ -8,7 +8,6 @@ from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 from sklearn import metrics
 from sklearn.linear_model import LogisticRegression
-from WeightedBinaryCrossentropy import WeightedBinaryCrossentropy
 from fun import prepro
 from jinja2 import Template
 
