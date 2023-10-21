@@ -52,7 +52,7 @@ tensorflow-intel==0.0.1
 tensorflow-io-gcs-filesystem==0.31.0
 tensorflowjs==3.18.0
 termcolor==2.3.0
-tox==4.11.3
+tox==4.8.0
 typing_extensions==4.8.0
 urllib3==2.0.7
 virtualenv==20.24.5
