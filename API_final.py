@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 from sklearn import metrics
 from sklearn.linear_model import LogisticRegression
 from fun import prepro
-from jinja2 import Template
 
 import requests
 api_key = '2a8be53043c3523cb8f9e00f4843aa8c'
