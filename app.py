@@ -12,7 +12,7 @@ def index():
 def get_prediction():
     try:
         # Run the Python script and capture its output
-        result = subprocess.check_output(['python', 'API_final.py'], universal_newlines=True)
+        result = subprocess.check_output(['python', 'API_final.py'], universal_newlines=True,stderr=subprocess.STDOUT)
 
         # Format the output as HTML
         formatted_result = f'<h2>5 Hours Data:</h2>\n<p>{result}</p>'
