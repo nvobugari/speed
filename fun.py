@@ -6,8 +6,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 from sklearn import metrics
-from sklearn.linear_model import LogisticRegression
-from WeightedBinaryCrossentropy import WeightedBinaryCrossentropy
 
 data = pd.read_csv(r'Data\power_outage_data.csv')
 data.drop(columns=['location'], inplace=True)
