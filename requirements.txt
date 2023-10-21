@@ -11,7 +11,6 @@ chardet==5.2.0
 charset-normalizer==3.3.0
 click==8.1.7
 colorama==0.4.6
-configparser==6.0.0
 distlib==0.3.7
 filelock==3.12.4
 Flask==3.0.0
