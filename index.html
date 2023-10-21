@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Power Outage Prediction</title>
+</head>
+<body>
+    <h1>Get Prediction Based on Your Location</h1>
+    <button id="predictionButton">Get Prediction</button>
+
+    <script>
+        document.getElementById('predictionButton').addEventListener('click', function () {
+            // Redirect the user to the desired URL
+            window.location.href = 'http://localhost:5000/get_prediction';
+        });
+    </script>
+</body>
+</html>
