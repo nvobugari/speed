@@ -22,7 +22,6 @@ grpcio==1.59.0
 gunicorn==21.2.0
 idna==3.4
 itsdangerous==2.1.2
-Jinja2==3.1.2
 keras==2.11.0
 libclang==16.0.6
 Markdown==3.4.4
