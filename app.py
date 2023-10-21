@@ -10,7 +10,9 @@ def index():
 
 @app.route('/get_prediction')
 def get_prediction():
+    print ("in get_prediction")
     try:
+        print ("in try")
         # Run the Python script and capture its output
         result = subprocess.check_output(['python', 'API_final.py'], universal_newlines=True,stderr=subprocess.STDOUT)
 
@@ -18,7 +20,8 @@ def get_prediction():
         formatted_result = f'<h2>5 Hours Data:</h2>\n<p>{result}</p>'
 
         return formatted_result
-    except Exception as e:
+    except Exception as e: 
+        print ("in else")
         return f'<h2>Error:</h2>\n<p>{str(e)}</p>'
 
 if __name__ == '__main__':
