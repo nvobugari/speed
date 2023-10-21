@@ -1,3 +1,4 @@
+python_version=="3.1"
 pandas==0.25.2
 scikit-learn==0.23.2
 pickle4==0.0.1
