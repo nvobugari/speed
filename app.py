@@ -22,6 +22,7 @@ def get_prediction():
         return formatted_result
     except Exception as e: 
         print ("in else")
+        print(e)
         return f'<h2>Error:</h2>\n<p>{str(e)}</p>'
 
 if __name__ == '__main__':
